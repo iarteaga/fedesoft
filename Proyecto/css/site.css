@@ -1,0 +1,45 @@
+/*Clase para eliminar margenes internas*/
+
+.no-padding{
+    padding: 0 !important;
+}
+
+.margin-b-20{
+    margin-bottom: 20px;
+}
+
+.color-rojo:hover{
+    color: #ff0000;
+}
+
+.col-md-4 span{
+    border: 2px solid #00ff00;
+    background: #DFD5D3;
+    border-radius: 50%;
+}
+
+.col-md-6 > div{
+    border: 3px dotted #0000ff;
+}
+
+#alto{
+    height: 100vh; /*vh significa el total de la pantalla v=visual h=heigth*/
+    background-color: #00ff00;
+}
+
+.col-md-8:hover{
+    background-color: #0f0;
+    transition: background-color 2s;
+}
+
+.col-md-8{
+    transition: background-color 2s;
+}
+
+.col-md-2::before{
+    content:'xxx';
+}
+
+.col-md-2::after{
+    content:'yyy';
+}
